@@ -1,0 +1,135 @@
+@font-face{
+    font-family:'HankBold';
+    src: url(assets/fonts/HankenGrotesk-Bold.ttf);
+    font-weight: bold;
+    font-style: bold;
+}
+
+@font-face{
+    font-family:'HankRegular';
+    src: url(assets/fonts/HankenGrotesk-VariableFont_wght.ttf);
+    font-weight:normal;
+    font-style:normal;
+}
+
+/* body{
+    background-color: aqua;
+} */
+
+h1{
+    font-family:'HankBold';
+    font-weight: bold;
+}
+
+h2{
+    font-family:'HankBold';
+    font-weight: bold;
+    font-size: 1rem;
+}
+.continer{
+    background-color: white;
+    color: white;
+    border-radius: 1rem;
+    display: flex;
+    margin: auto;
+    max-width: 570px;
+    /* position: relative; */
+    box-shadow: 1rem 1rem 2rem rgb(233, 229, 255);
+}
+
+/* .continer::after{
+    position: absolute;
+    top: 0;
+    left: 0;
+    content: '';
+    background-color: rgb(226, 237, 255);
+    width: 100%;
+    height: 100%;
+    filter: blur(1rem);
+    z-index: -1;
+} */
+
+.section-result{
+    border-radius: 1rem;
+    text-align: center;
+    width: 50%;
+    background-image: linear-gradient(to bottom, #5d00ff, #004cff);
+    padding: 1rem 2rem;
+}
+
+.result-number{
+    display: inline-block;
+    padding: 0.2rem 1.8rem;
+    border-radius: 30rem;
+    background-image: linear-gradient(to bottom, #4100b1, #2b00ff);
+}
+
+.section-summary{
+    font-size: 0.8rem;
+    border-radius: 1rem;
+    padding: 1rem 2rem;
+    color: black;
+    width: 50%;
+    background-color: white;
+    font-family: 'HankBold';
+    font-weight: 11rem;
+}
+
+.cont-reaction{
+    background-color: #ffece1;
+    color:#dc4b12 ;
+}
+
+.cont-memory{
+    background-color: #fffee3;
+    color:#d89c0f;
+}
+
+.cont-verbal{
+    background-color: #e2fffb;  
+    color: #0ea995;  
+}
+    
+
+.cont-visual{
+    background-color: #fae4ff;
+    color: #59139e;
+}
+
+
+.cont-section-sumary{
+    padding: 0rem 0rem 0rem 0.5rem;
+    margin: 1rem 0rem;
+    display: flex;
+    border-radius: 0.6rem;
+}
+
+.puntuation-cont{
+    color: #252525;
+    margin-left: auto;
+    margin-right: 1rem;
+}
+
+.button-continue{
+    margin: auto;
+    border-radius: 3rem;
+    padding: 0.5rem 4rem;
+    border: none;
+    background-color: #22202f;
+    color: white;
+    font-family: 'HankRegular';
+    font-weight: normal;
+    font-style: normal;
+}
+
+.number-76{
+    line-height: 0.2rem;
+    font-size: 4rem;
+    font-family: 'HankBold';
+    font-weight: bold;
+    font-style: bold;
+}
+
+.text{
+    font-size: 0.7rem;
+}

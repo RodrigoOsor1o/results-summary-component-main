@@ -1,3 +1,9 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 @font-face{
     font-family:'HankBold';
     src: url(assets/fonts/HankenGrotesk-Bold.ttf);
@@ -12,9 +18,13 @@
     font-style:normal;
 }
 
-/* body{
-    background-color: aqua;
-} */
+body{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
 
 h1{
     font-family:'HankBold';
@@ -31,7 +41,6 @@ h2{
     color: white;
     border-radius: 1rem;
     display: flex;
-    margin: auto;
     max-width: 570px;
     /* position: relative; */
     box-shadow: 1rem 1rem 2rem rgb(233, 229, 255);

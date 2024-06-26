@@ -18,24 +18,33 @@
     font-style:normal;
 }
 
+:root{
+    --font-zise-title: 1.1rem;
+    --font-zise-subtitle: 1.5rem;
+    --font-zise-text: 0.9rem
+    
+}
+
 body{
     display: flex;
     width: 100%;
     height: 100vh;
     justify-content: center;
     align-items: center;
+    font-family: 'HankRegular';
+    font-weight: normal;
+    font-style: normal;
 }
 
-h1{
-    font-family:'HankBold';
-    font-weight: bold;
-}
+/* h1{
+    
+} */
 
-h2{
+/* h2{
     font-family:'HankBold';
     font-weight: bold;
     font-size: 1rem;
-}
+} */
 .continer{
     background-color: white;
     color: white;
@@ -63,12 +72,13 @@ h2{
     text-align: center;
     width: 50%;
     background-image: linear-gradient(to bottom, #5d00ff, #004cff);
-    padding: 1rem 2rem;
+    padding: 2rem 3rem;
 }
 
 .result-number{
+    margin: 1.7rem;
     display: inline-block;
-    padding: 0.2rem 1.8rem;
+    padding: 3rem 2rem;
     border-radius: 30rem;
     background-image: linear-gradient(to bottom, #4100b1, #2b00ff);
 }
@@ -107,7 +117,7 @@ h2{
 
 
 .cont-section-sumary{
-    padding: 0rem 0rem 0rem 0.5rem;
+    padding: 0.8rem 0.5rem;
     margin: 1rem 0rem;
     display: flex;
     border-radius: 0.6rem;
@@ -124,7 +134,7 @@ h2{
     border-radius: 3rem;
     padding: 0.5rem 4rem;
     border: none;
-    background-color: #22202f;
+    background-image: linear-gradient(to bottom, #1e5bdf, #751fff);
     color: white;
     font-family: 'HankRegular';
     font-weight: normal;
@@ -133,12 +143,36 @@ h2{
 
 .number-76{
     line-height: 0.2rem;
-    font-size: 4rem;
+    font-size: 3rem;
     font-family: 'HankBold';
     font-weight: bold;
     font-style: bold;
+    padding: 1rem;
+    margin:0rem 0rem 0.5rem; 
 }
 
 .text{
-    font-size: 0.7rem;
+    font-size: var(--font-zise-text);
 }
+
+.text-bold{
+    font-weight: 600;
+}
+
+.text-title{
+    margin: 0.5rem 0rem 0rem 0rem;
+    font-size: var(--font-zise-title);
+}
+
+.text-subtitle{
+    font-size: var(--font-zise-subtitle);
+    font-family:'HankBold';
+    font-weight: bold;
+    font-style: bold;
+    margin:0rem 0rem 0.9rem 0rem;
+}
+
+.text-cont-section-sumary{
+    margin: 0rem 0rem 0rem 0.3rem;
+}
+/* .text- */
